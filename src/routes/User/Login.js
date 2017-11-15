@@ -27,9 +27,11 @@ export default class Login extends Component {
   }
 
   onSwitch = (key) => {
+    this.setState({
       type: key,
     });
   }
+
 
   handleSubmit = (e) => {
     e.preventDefault();
